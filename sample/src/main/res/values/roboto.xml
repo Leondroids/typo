@@ -2,7 +2,7 @@
 <resources>
     <string name="roboto">roboto</string>
 
-    <string name="roboto_black">Roboto-Black.ttf</string>
+    <!--string name="roboto_black">Roboto-Black.ttf</string>
     <string name="roboto_black_italic">Roboto-BlackItalic.ttf</string>
     <string name="roboto_bold">Roboto-Bold.ttf</string>
     <string name="roboto_bold_italic">Roboto-BoldItalic.ttf</string>
@@ -13,5 +13,5 @@
     <string name="roboto_medium_italic">Roboto-Medium-Italic.ttf</string>
     <string name="roboto_regular">Roboto-Regular.ttf</string>
     <string name="roboto_thin">Roboto-Thin.ttf</string>
-    <string name="roboto_thin_italic">Roboto-ThinItalic.ttf</string>
+    <string name="roboto_thin_italic">Roboto-ThinItalic.ttf</string-->
 </resources>

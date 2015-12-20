@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.leondroid.lib.com.leondroid.typo.Typo;
 import com.leondroid.typo.fontmapper.roboto.RobotoMapper;
 
-public class MainActivity extends AppCompatActivity {
+public class RobotoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

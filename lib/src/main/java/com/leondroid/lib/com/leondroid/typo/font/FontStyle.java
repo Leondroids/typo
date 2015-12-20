@@ -15,6 +15,10 @@ public enum FontStyle {
     THIN_ITALIC;
 
     public static FontStyle getStyle(int id) {
+        if(values().length <= id) {
+            return REGULAR;
+        }
+
         return FontStyle.values()[id];
     }
 }

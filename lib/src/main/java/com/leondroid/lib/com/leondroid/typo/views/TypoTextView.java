@@ -4,13 +4,26 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.widget.TextView;
-
 import com.leondroid.lib.R;
 import com.leondroid.lib.com.leondroid.typo.Typo;
 import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
 
+
+/**
+ * A {@link android.widget.TextView} that integrates the Typo instance.
+ *
+ * <p>
+ * Provide a font and a style in xml or simply call setTypeface(..., ...)
+ * to define the typeface for this view.
+ * <p>
+ * <b>XML attributes</b>
+ * <p>
+ * See {@link R.styleable#TypoTextView TypoTextView Attributes},
+ *
+ * @attr ref R.styleable#TypoTextView_typoName
+ * @attr ref R.styleable#TypoTextView_typoStyle
+ */
 public class TypoTextView extends TextView implements TypoView {
     public static final String TAG = TypoTextView.class.getName();
 

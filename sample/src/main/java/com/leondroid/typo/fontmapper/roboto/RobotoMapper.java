@@ -1,11 +1,11 @@
 package com.leondroid.typo.fontmapper.roboto;
 
-import com.leondroid.lib.com.leondroid.typo.font.FontMapper;
+import com.leondroid.lib.com.leondroid.typo.font.TypefaceMapper;
 import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
 
 import java.io.File;
 
-public class RobotoMapper implements FontMapper {
+public class RobotoMapper implements TypefaceMapper {
     public static final String TAG = RobotoMapper.class.getName();
     private static final String FONT_NAME = "roboto";
 
