@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_font" translatable="false">device_font</string>
+
+    <!-- styles -->
+    <integer name="regular">0</integer>
+    <integer name="black">1</integer>
+    <integer name="black_italic">2</integer>
+    <integer name="bold">3</integer>
+    <integer name="bold_italic">4</integer>
+    <integer name="italic">5</integer>
+    <integer name="light">6</integer>
+    <integer name="light_italic">7</integer>
+    <integer name="medium">8</integer>
+    <integer name="medium_italic">9</integer>
+    <integer name="thin">10</integer>
+    <integer name="thin_italic">11</integer>
+</resources>

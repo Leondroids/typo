@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="TypoTextView">
+        <attr name="typoName" format="string" />
+        <attr name="typoStyle" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TypoEditTextView">
+        <attr name="typoEditName" format="string" />
+        <attr name="typoEditStyle" format="integer" />
+    </declare-styleable>
+</resources>
