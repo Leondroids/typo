@@ -12,7 +12,13 @@ public enum FontStyle {
     MEDIUM,
     MEDIUM_ITALIC,
     THIN,
-    THIN_ITALIC;
+    THIN_ITALIC,
+    EXTRA_BOLD,
+    EXTRA_BOLD_ITALIC,
+    EXTRA_LIGHT,
+    EXTRA_LIGHT_ITALIC,
+    SEMI_BOLD,
+    SEMI_BOLD_ITALIC;
 
     public static FontStyle getStyle(int id) {
         if(values().length <= id) {

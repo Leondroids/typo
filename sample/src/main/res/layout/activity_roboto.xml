@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/regular" />
+
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black"
+            android:textSize="@dimen/text_size"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/black" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/black_italic" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/bold" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bold Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/bold_italic" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/italic" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/light" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/light_italic" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/medium" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/medium_italic" />
+
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thin"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/thin" />
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thin Italic"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/roboto"
+            custom:typoStyle="@integer/thin_italic" />
+    </LinearLayout>
+</ScrollView>

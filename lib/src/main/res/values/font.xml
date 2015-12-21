@@ -15,4 +15,16 @@
     <integer name="medium_italic">9</integer>
     <integer name="thin">10</integer>
     <integer name="thin_italic">11</integer>
+    <integer name="extra_bold">12</integer>
+    <integer name="extra_bold_italic">13</integer>
+    <integer name="extra_light">14</integer>
+    <integer name="extra_light_italic">15</integer>
+    <integer name="semi_bold">16</integer>
+    <integer name="semi_bold_italic">17</integer>
+
+
+    <string name="roboto">roboto</string>
+    <string name="alex_brush">alex-brush</string>
+    <string name="pacifico">pacifico</string>
+    <string name="raleway">raleway</string>
 </resources>

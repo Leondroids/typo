@@ -3,7 +3,7 @@ package com.leondroid.lib.com.leondroid.typo;
 import android.content.Context;
 import android.graphics.Typeface;
 
-import com.leondroid.lib.com.leondroid.typo.font.TypefaceMapper;
+import com.leondroid.lib.com.leondroid.typo.mapper.TypefaceMapper;
 import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
 import com.leondroid.lib.com.leondroid.typo.loader.DefaultTypefaceLoader;
 import com.leondroid.lib.com.leondroid.typo.loader.TypefaceLoader;
@@ -31,13 +31,15 @@ public class Typo {
     }
 
     public static Builder init(TypefaceLoader typefaceLoader) {
+        if(builder != null) {
+            throw new IllegalStateException("Typo cannot be initialized twice");
+        }
         builder = new Builder(typefaceLoader);
         return builder;
     }
 
     public static Builder init(Context context) {
-        builder = new Builder(new DefaultTypefaceLoader(context));
-        return builder;
+        return init(new DefaultTypefaceLoader(context));
     }
 
     private static void assertInstance() {

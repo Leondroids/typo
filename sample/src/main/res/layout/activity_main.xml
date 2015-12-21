@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.leondroid.typo.RobotoActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,137 +11,49 @@
 
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:id="@+id/tv__roboto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Regular"
+            android:text="Roboto"
             android:padding="16dp"
             android:textSize="@dimen/text_size"
             android:gravity="center"
             android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/regular" />
+            custom:typoName="@string/roboto"/>
+
+        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:id="@+id/tv__alex_brush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alex Brush"
+            android:padding="16dp"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_gravity="center"
+            custom:typoName="@string/alex_brush"/>
 
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:id="@+id/tv__pacifico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Black"
-            android:textSize="@dimen/text_size"
-            android:padding="16dp"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/black" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Black Italic"
+            android:text="Pacifico"
             android:padding="16dp"
             android:textSize="@dimen/text_size"
             android:gravity="center"
             android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/black_italic" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bold"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/bold" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bold Italic"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/bold_italic" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Italic"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/italic" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Light"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/light" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Light Italic"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/light_italic" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/medium" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Italic"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/medium_italic" />
+            custom:typoName="@string/pacifico"/>
 
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            android:id="@+id/tv__raleway"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Thin"
+            android:text="Raleway"
             android:padding="16dp"
             android:textSize="@dimen/text_size"
             android:gravity="center"
             android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/thin" />
-
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thin Italic"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"
-            custom:typoStyle="@integer/thin_italic" />
+            custom:typoName="@string/raleway"/>
     </LinearLayout>
 </ScrollView>
