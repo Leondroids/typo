@@ -3,8 +3,12 @@ package com.leondroid.lib.com.leondroid.typo;
 import android.content.Context;
 import android.graphics.Typeface;
 
+import com.leondroid.lib.com.leondroid.typo.font.Font;
+import com.leondroid.lib.com.leondroid.typo.font.PacificoMapper;
+import com.leondroid.lib.com.leondroid.typo.font.RalewayMapper;
+import com.leondroid.lib.com.leondroid.typo.font.RobotoMapper;
+import com.leondroid.lib.com.leondroid.typo.mapper.AlexBrushMapper;
 import com.leondroid.lib.com.leondroid.typo.mapper.TypefaceMapper;
-import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
 import com.leondroid.lib.com.leondroid.typo.loader.DefaultTypefaceLoader;
 import com.leondroid.lib.com.leondroid.typo.loader.TypefaceLoader;
 
@@ -18,6 +22,7 @@ import java.util.Map;
  * and the style to an asset.
  */
 public class Typo {
+    private static final String DEFAULT_FONT_PATH = "fonts";
     private static Typo instance;
     private static Builder builder;
 
@@ -31,7 +36,7 @@ public class Typo {
     }
 
     public static Builder init(TypefaceLoader typefaceLoader) {
-        if(builder != null) {
+        if (builder != null) {
             throw new IllegalStateException("Typo cannot be initialized twice");
         }
         builder = new Builder(typefaceLoader);
@@ -86,6 +91,21 @@ public class Typo {
             }
             this.typefaceLoader = typefaceLoader;
             typefaceMappers = new HashMap<>();
+        }
+
+        public Builder use(Font font) {
+            switch (font) {
+                case ROBOTO:
+                    return withFontMapper(new RobotoMapper(DEFAULT_FONT_PATH));
+                case ALEX_BRUSH:
+                    return withFontMapper(new AlexBrushMapper(DEFAULT_FONT_PATH));
+                case PACIFICO:
+                    return withFontMapper(new PacificoMapper(DEFAULT_FONT_PATH));
+                case RALEWAY:
+                    return withFontMapper(new RalewayMapper(DEFAULT_FONT_PATH));
+                default:
+                    throw new IllegalStateException("Font " + font + " not found");
+            }
         }
 
         public Builder withFontMapper(TypefaceMapper typefaceMapper) {

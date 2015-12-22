@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -12,48 +11,32 @@
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__roboto"
+            style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Roboto"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/roboto"/>
+            android:text="Roboto" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__alex_brush"
+            style="?alexBrushDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alex Brush"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/alex_brush"/>
+            android:text="Alex Brush" />
 
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__pacifico"
+            style="?pacificoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pacifico"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/pacifico"/>
+            android:text="Pacifico" />
 
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__raleway"
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Raleway"
-            android:padding="16dp"
-            android:textSize="@dimen/text_size"
-            android:gravity="center"
-            android:layout_gravity="center"
-            custom:typoName="@string/raleway"/>
+            android:text="Raleway" />
     </LinearLayout>
 </ScrollView>

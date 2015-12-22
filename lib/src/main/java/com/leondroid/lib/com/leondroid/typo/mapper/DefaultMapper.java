@@ -1,6 +1,6 @@
 package com.leondroid.lib.com.leondroid.typo.mapper;
 
-import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
+import com.leondroid.lib.com.leondroid.typo.FontStyle;
 
 import java.io.File;
 import java.util.Map;

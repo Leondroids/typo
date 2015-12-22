@@ -1,8 +1,8 @@
-package com.leondroid.lib.com.leondroid.typo.mapper;
+package com.leondroid.lib.com.leondroid.typo.font;
 
-import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
+import com.leondroid.lib.com.leondroid.typo.FontStyle;
+import com.leondroid.lib.com.leondroid.typo.mapper.DefaultMapper;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 

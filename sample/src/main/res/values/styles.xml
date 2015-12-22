@@ -6,6 +6,33 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="robotoDemo">@style/roboto</item>
+        <item name="alexBrushDemo">@style/alex_brush</item>
+        <item name="ralewayDemo">@style/raleway</item>
+        <item name="pacificoDemo">@style/pacifico</item>
     </style>
 
+    <style name="textDemoView">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="roboto" parent="textDemoView">
+        <item name="typoName">@string/roboto</item>
+    </style>
+
+    <style name="alex_brush" parent="textDemoView">
+        <item name="typoName">@string/alex_brush</item>
+    </style>
+
+    <style name="raleway" parent="textDemoView">
+        <item name="typoName">@string/raleway</item>
+    </style>
+
+    <style name="pacifico" parent="textDemoView">
+        <item name="typoName">@string/pacifico</item>
+    </style>
 </resources>

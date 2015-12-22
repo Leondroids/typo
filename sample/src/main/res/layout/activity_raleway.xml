@@ -8,206 +8,132 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
- 
-
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Regular"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/regular"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/regular" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Black"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/black"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/black" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Black Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/black_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/black_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Bold"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/bold"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/bold" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Bold Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/bold_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/bold_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Light"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/light"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/light" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Light Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/light_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/light_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Medium"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/medium"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/medium" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Medium Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/medium_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/medium_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Thin"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/thin"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/thin" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Thin Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/thin_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/thin_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Extra Bold"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/extra_bold"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/extra_bold" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Extra Bold Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/extra_bold_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/extra_bold_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Extra Light"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/extra_light"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/extra_light" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Extra Light Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/extra_light_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/extra_light_italic" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Semi Bold"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/semi_bold"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/semi_bold" />
 
         <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+            style="?ralewayDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:padding="16dp"
             android:text="Semi Bold Italic"
-            android:textSize="@dimen/text_size"
-            custom:typoStyle="@integer/semi_bold_italic"
-            custom:typoName="@string/raleway" />
+            custom:typoStyle="@integer/semi_bold_italic" />
 
     </LinearLayout>
 </ScrollView>

@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 import com.leondroid.lib.R;
 import com.leondroid.lib.com.leondroid.typo.Typo;
-import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
+import com.leondroid.lib.com.leondroid.typo.FontStyle;
 
 
 /**

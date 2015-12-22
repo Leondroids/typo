@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.EditText;
 
 import com.leondroid.lib.R;
-import com.leondroid.lib.com.leondroid.typo.font.FontStyle;
+import com.leondroid.lib.com.leondroid.typo.FontStyle;
 import com.leondroid.lib.com.leondroid.typo.Typo;
 
 public class TypoEditText extends EditText implements TypoView {

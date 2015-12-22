@@ -1,4 +1,4 @@
-package com.leondroid.lib.com.leondroid.typo.font;
+package com.leondroid.lib.com.leondroid.typo;
 
 public enum FontStyle {
     REGULAR,

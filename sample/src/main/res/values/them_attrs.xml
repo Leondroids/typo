@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="robotoDemo" format="reference" />
+    <attr name="alexBrushDemo" format="reference" />
+    <attr name="ralewayDemo" format="reference" />
+    <attr name="pacificoDemo" format="reference" />
+</resources>
