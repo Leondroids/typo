@@ -1,4 +1,4 @@
-package com.leondroid.lib.com.leondroid.typo.views;
+package com.leondroid.typo.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,8 +6,8 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 import com.leondroid.lib.R;
-import com.leondroid.lib.com.leondroid.typo.Typo;
-import com.leondroid.lib.com.leondroid.typo.FontStyle;
+import com.leondroid.typo.Typo;
+import com.leondroid.typo.FontStyle;
 
 
 /**

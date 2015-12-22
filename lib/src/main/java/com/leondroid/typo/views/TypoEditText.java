@@ -1,4 +1,4 @@
-package com.leondroid.lib.com.leondroid.typo.views;
+package com.leondroid.typo.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,8 +7,8 @@ import android.util.AttributeSet;
 import android.widget.EditText;
 
 import com.leondroid.lib.R;
-import com.leondroid.lib.com.leondroid.typo.FontStyle;
-import com.leondroid.lib.com.leondroid.typo.Typo;
+import com.leondroid.typo.FontStyle;
+import com.leondroid.typo.Typo;
 
 public class TypoEditText extends EditText implements TypoView {
     public TypoEditText(Context context) {

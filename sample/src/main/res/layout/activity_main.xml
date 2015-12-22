@@ -9,14 +9,14 @@
         android:orientation="vertical">
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__roboto"
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Roboto" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__alex_brush"
             style="?alexBrushDemo"
             android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
             android:text="Alex Brush" />
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__pacifico"
             style="?pacificoDemo"
             android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
             android:text="Pacifico" />
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             android:id="@+id/tv__raleway"
             style="?ralewayDemo"
             android:layout_width="wrap_content"

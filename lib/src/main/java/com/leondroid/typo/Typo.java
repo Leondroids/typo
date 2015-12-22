@@ -1,16 +1,16 @@
-package com.leondroid.lib.com.leondroid.typo;
+package com.leondroid.typo;
 
 import android.content.Context;
 import android.graphics.Typeface;
 
-import com.leondroid.lib.com.leondroid.typo.font.Font;
-import com.leondroid.lib.com.leondroid.typo.font.PacificoMapper;
-import com.leondroid.lib.com.leondroid.typo.font.RalewayMapper;
-import com.leondroid.lib.com.leondroid.typo.font.RobotoMapper;
-import com.leondroid.lib.com.leondroid.typo.mapper.AlexBrushMapper;
-import com.leondroid.lib.com.leondroid.typo.mapper.TypefaceMapper;
-import com.leondroid.lib.com.leondroid.typo.loader.DefaultTypefaceLoader;
-import com.leondroid.lib.com.leondroid.typo.loader.TypefaceLoader;
+import com.leondroid.typo.font.Font;
+import com.leondroid.typo.font.PacificoMapper;
+import com.leondroid.typo.font.RalewayMapper;
+import com.leondroid.typo.font.RobotoMapper;
+import com.leondroid.typo.mapper.AlexBrushMapper;
+import com.leondroid.typo.mapper.TypefaceMapper;
+import com.leondroid.typo.loader.DefaultTypefaceLoader;
+import com.leondroid.typo.loader.TypefaceLoader;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package com.leondroid.lib.com.leondroid.typo.mapper;
+package com.leondroid.typo.mapper;
 
-import com.leondroid.lib.com.leondroid.typo.FontStyle;
+import com.leondroid.typo.FontStyle;
 
 public interface TypefaceMapper {
 

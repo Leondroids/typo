@@ -10,7 +10,7 @@
         android:orientation="vertical">
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -18,63 +18,63 @@
             custom:typoStyle="@integer/regular" />
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Black"
             custom:typoStyle="@integer/black" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Black Italic"
             custom:typoStyle="@integer/black_italic" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bold"
             custom:typoStyle="@integer/bold" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bold Italic"
             custom:typoStyle="@integer/bold_italic" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Italic"
             custom:typoStyle="@integer/italic" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Light"
             custom:typoStyle="@integer/light" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Light Italic"
             custom:typoStyle="@integer/light_italic" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Medium"
             custom:typoStyle="@integer/medium" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,14 +82,14 @@
             custom:typoStyle="@integer/medium_italic" />
 
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thin"
             custom:typoStyle="@integer/thin" />
 
-        <com.leondroid.lib.com.leondroid.typo.views.TypoTextView
+        <com.leondroid.typo.views.TypoTextView
             style="?robotoDemo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

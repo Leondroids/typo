@@ -1,4 +1,4 @@
-package com.leondroid.lib.com.leondroid.typo.loader;
+package com.leondroid.typo.loader;
 
 import android.content.Context;
 import android.graphics.Typeface;

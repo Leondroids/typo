@@ -1,4 +1,4 @@
-package com.leondroid.lib.com.leondroid.typo.font;
+package com.leondroid.typo.font;
 
 public enum Font {
     ROBOTO,

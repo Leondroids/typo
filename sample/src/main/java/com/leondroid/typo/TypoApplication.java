@@ -2,8 +2,7 @@ package com.leondroid.typo;
 
 import android.app.Application;
 
-import com.leondroid.lib.com.leondroid.typo.Typo;
-import com.leondroid.lib.com.leondroid.typo.font.Font;
+import com.leondroid.typo.font.Font;
 
 public class TypoApplication extends Application {
 
